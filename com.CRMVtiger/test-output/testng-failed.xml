@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.CRMVtiger.Contact_EditBox_Edit_Save_VerifyChangesTest">
+        <methods>
+          <include name="contact_EditBox_Edit_Save_VerifyChangesTest"/>
+          <include name="logoutAM"/>
+          <include name="loginBM"/>
+          <include name="openBrowserBC"/>
+          <include name="closeBrowserAC"/>
+        </methods>
+      </class> <!-- com.CRMVtiger.Contact_EditBox_Edit_Save_VerifyChangesTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
